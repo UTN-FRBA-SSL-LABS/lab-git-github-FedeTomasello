@@ -536,10 +536,10 @@ git push
 
 **P2** — Describí con tus palabras qué diferencia hay entre las dos implementaciones de `esPar` que conflictuaban. ¿En qué caso podría importar elegir una sobre la otra?
 
-> R:
+> R:Importaba, esto ya que uno daba una respeusta incorrecta mientras que el otro daba la correcta
 
 ```
-PARTE_IV_COMPLETA=
+PARTE_IV_COMPLETA=SI
 ```
 _(escribí SI cuando el conflicto esté resuelto y pusheado)_
 
@@ -549,16 +549,15 @@ _(escribí SI cuando el conflicto esté resuelto y pusheado)_
 
 **P3** — Un compañero te dice: "yo hago un solo commit al final del día con todo lo que hice". ¿Qué problemas puede traer esa práctica? ¿Qué le dirías?
 
-> R:
+> R: Le diria que no lo haga, ya que se suben todos los cambios juntos al final del dia, aunque un compañero haya tocado la misma linea. Aparte si llega a haber un problema, a la hora de revertir el commit, se revierte tambien los cambios que fueron bien hechos.
 
 **P4** — ¿Cuál es la diferencia entre `git fetch` y `git pull`? ¿Cuándo preferirías usar uno sobre el otro?
 
-> R:
+> R:El git fetch descarga los cambios pero no los aplica al código local mientras que el pull descarga y realiza los cambios.
 
 **P5** — ¿Qué información debería tener la descripción de un Pull Request para que sea útil para quien lo revisa?
 
-> R:
-
+> R:Debería incluir que se hizo, el porque y como probar lo cambiado.
 ---
 
 ## Entrega
