@@ -2,7 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(const a, const b)
+int sumar(const a, const b) // Justamente, si nosotros queremos que las variables a y b se mantegan constantes y no se modifiquen a la hora de ejecutar esta función
 {
     return a + b;
 }
